@@ -1,12 +1,13 @@
-import React from 'react'
 
-const AnimalCategories = () => {
-    
-  return (
-    <div className=''>
-      
-    </div>
-  )
+function AnimalCategories() {
+    return ( 
+        <div>
+            <p>
+                AnimalCategories
+            </p>
+        </div>
+    );
 }
 
-export default AnimalCategories
+export default AnimalCategories;
+
