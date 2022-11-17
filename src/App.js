@@ -1,9 +1,16 @@
-import './App.css';
-
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import AnimalCategories from "./components/AnimalCategories";
+import Cart from "./components/Cart";
 function App() {
   return (
     <div className="App">
-     <h1>Hallo</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/animalCategories" element={<AnimalCategories />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
     </div>
   );
 }
