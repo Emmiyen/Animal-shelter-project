@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Form from "./Form";
 function Home() {
 const [data, setData] = useState([]);
 useEffect(() => {
@@ -10,10 +10,9 @@ useEffect(() => {
     };
     fetchData();
   }, [setData]);
-console.log(data)
 
   return (
-   <p>home</p>
+   <Form data={data}></Form>
   );
 }
 
