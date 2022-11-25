@@ -5,6 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 function Form(props) {
   const [age, setAge] = useState("");
   const [size, setSize] = useState("");
@@ -108,13 +109,13 @@ function Form(props) {
                 </Select>
               </FormControl>
             </Box>
-            <button
+            <Link
+              to="/animalcategories"
               className="sub"
               onClick={() => sendForm("dog")}
-              size="large"
             >
               Submit
-            </button>
+            </Link>
           </div>
         </div>
         <div
@@ -123,7 +124,7 @@ function Form(props) {
         >
           <h2 className="card-title">Cats</h2>
           <img
-            src="https://png.pngtree.com/png-clipart/20190618/original/pngtree-gray-cartoon-cat-cat-cartoon-animals-gray-png-image_3925392.jpg"
+            src="https://t3.ftcdn.net/jpg/02/63/04/74/360_F_263047400_AReIHV0BYqPckVM9HUnh9czMhS4Ol2qm.jpg"
             alt=""
           />
           <div className="card-desc">
@@ -156,13 +157,13 @@ function Form(props) {
                   <MenuItem value={"Male"}>Male</MenuItem>
                 </Select>
               </FormControl>
-              <button
+              <Link
+                to="/animalcategories"
                 className="sub"
                 onClick={() => sendForm("cat")}
-                size="large"
               >
                 Submit
-              </button>
+              </Link>
             </Box>
           </div>
         </div>
