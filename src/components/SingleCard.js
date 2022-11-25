@@ -1,29 +1,29 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Button from "./Button";
 import "./SingleCard.css";
 
 function SingleCard({ data }) {
   return (
-    <div className='containerBody'>
+    <div className="containerBody">
       {data?.map((item, i) => (
-        <div className='card'>
-          <div className='card-side front'>
-            <div className='front-content'>
-              <img src={item?.photos} alt='animalPicture' />
+        <div className="card" key={i}>
+          <div className="card-side front">
+            <div className="front-content">
+              <img src={item?.photos} alt="animalPicture" />
 
-              <h1 className='animal-name'>{item?.name}</h1>
+              <h1 className="animal-name">{item?.name}</h1>
 
-              <p className='animal-description'>{item?.description}</p>
+              <p className="animal-description">{item?.description}</p>
               <Button />
             </div>
           </div>
-          <div className='card-side back'>
+          <div className="card-side back">
             <div>
-              <img className='backImg' src={item?.photos} alt='animal pic' />
+              <img className="backImg" src={item?.photos} alt="animal pic" />
             </div>
 
-            <div className='animal-info'>
-              <h1 className='animal-name'>{item?.name}</h1>
+            <div className="animal-info">
+              <h1 className="animal-name">{item?.name}</h1>
               <p>Age: {item?.age}</p>
               <p>Size: {item?.size}</p>
               <p>Gender: {item?.gender}</p>
@@ -37,9 +37,6 @@ function SingleCard({ data }) {
 
 export default SingleCard;
 
-
-
-
 // import React, { useState, useEffect } from "react";
 // import Card from '@mui/material/Card';
 // import CardActions from '@mui/material/CardActions';
@@ -52,19 +49,15 @@ export default SingleCard;
 // import PetsIcon from '@mui/icons-material/Pets';
 // // import axios from "axios";
 
-
-
 // const SingleCard=() =>{
 
 //   const [cardData, setCardData] = useState([]);
 //   const [visible, setVisible] = useState(1);
 
-
 //     const allCardData = async () => {
 //       const res = await fetch(require("../data/api.JSON"));
 //       setCardData(res.formData.results);
 //     };
-   
 
 //   const loadMore = () => {
 //     setVisible(visible + 1);

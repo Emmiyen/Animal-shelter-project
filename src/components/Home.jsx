@@ -20,12 +20,7 @@ function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  return (
-    <div className="wrap">
-      {showAnimation ? <Fade /> : <></>}
-      <Form data={data}></Form>
-    </div>
-  );
+  return showAnimation ? <Fade /> : <Form data={data}></Form>;
 }
 
 export default Home;
