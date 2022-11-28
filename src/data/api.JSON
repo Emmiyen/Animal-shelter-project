@@ -133,6 +133,101 @@
       "status": "adoptable"
     },
     {
+      "id": 57365269,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pomeranian"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "special_needs": true,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Otis",
+      "description": "",
+      "photos": "https://images.pexels.com/photos/5465502/pexels-photo-5465502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 58084079,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Bulldog"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Apollo",
+      "description": "Lets shoot for the stars",
+      "photos": "https://images.pexels.com/photos/7050385/pexels-photo-7050385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 58084079,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "German Shepherd"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Moose",
+      "description": "Would you like to schmooze with Moose?",
+      "photos": "https://images.pexels.com/photos/10149802/pexels-photo-10149802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
       "id": 58884079,
       "type": "Dog",
       "species": "Dog",
