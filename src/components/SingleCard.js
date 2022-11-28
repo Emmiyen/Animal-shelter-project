@@ -1,36 +1,32 @@
 import React from "react";
 import Button from "./Button";
 import "./SingleCard.css";
-
+import Carousel from "react-material-ui-carousel";
 function SingleCard({ data }) {
   return (
     <div className="containerBody">
-      {data?.map((item, i) => (
-        <div className="card" key={i}>
-          <div className="card-side front">
-            <div className="front-content">
-              <img src={item?.photos} alt="animalPicture" />
-
-              <h1 className="animal-name">{item?.name}</h1>
-
-              <p className="animal-description">{item?.description}</p>
-              <Button />
+      <Carousel height={"75vh"} autoPlay={false} navButtonsAlwaysVisible={true}>
+        {data?.map((item, i) => (
+          <div className="card" key={i}>
+            <div className="card-side front">
+              <div className="front-content">
+                <img src={item?.photos} alt="animalPicture" />
+                <h1 className="animal-name">{item?.name}</h1>
+              </div>
             </div>
-          </div>
-          <div className="card-side back">
-            <div>
+            <div className="card-side back">
               <img className="backImg" src={item?.photos} alt="animal pic" />
-            </div>
-
-            <div className="animal-info">
-              <h1 className="animal-name">{item?.name}</h1>
-              <p>Age: {item?.age}</p>
-              <p>Size: {item?.size}</p>
-              <p>Gender: {item?.gender}</p>
+              <div className="animal-info">
+                <p>Age: {item?.age}</p>
+                <p>Size: {item?.size}</p>
+                <p>Gender: {item?.gender}</p>
+                <p className="animal-description">{item?.description}</p>
+              </div>
+              <Button item={item} />
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </Carousel>
     </div>
   );
 }

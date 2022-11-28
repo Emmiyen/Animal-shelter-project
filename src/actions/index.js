@@ -4,3 +4,10 @@ export const addItem = (filteredData) => {
     payload: filteredData,
   };
 };
+
+export const addPet = (pet) => {
+  return {
+    type: "ADDPET",
+    payload: pet,
+  };
+};

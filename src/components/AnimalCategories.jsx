@@ -5,8 +5,8 @@ import { useSelector } from "react-redux";
 
 const AnimalCategories = () => {
   const [data, setData] = useState([]);
-  const filteredData = useSelector((state) => state);
-
+  const filteredData = useSelector((state) => state.data);
+  console.log(filteredData);
   useEffect(() => {
     const fetchData = async () => {
       if (filteredData.length !== 0) {
@@ -21,11 +21,7 @@ const AnimalCategories = () => {
   }, [setData, filteredData]);
 
   console.log(data);
-  return (
-    <div>
-      <SingleCard data={data} />
-    </div>
-  );
+  return <SingleCard data={data} />;
 };
 
 export default AnimalCategories;

@@ -1,12 +1,7 @@
-.carousel {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-img{
-
+img {
   border-radius: 5%;
 }
+
 .card {
   top: 0;
   right: 0;
@@ -20,7 +15,7 @@ img{
   /* height: 40rem; */
   /* margin: 2rem; */
   max-width: 400px;
-  background: none; 
+  background: none;
   box-shadow: none;
   border-radius: 16px;
 }
@@ -33,20 +28,31 @@ img{
   position: absolute;
   top: 0;
   left: 0;
-  width: 80%;
   padding: 2rem;
   color: white;
+}
+
+.front-content,
+.back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.front-content>img {
+  max-height: 80%;
 }
 
 .card-side.back {
   transform: rotateY(-180deg);
   background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
+  background-image: linear-gradient(43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%);
 }
 
 .card-side.front {
@@ -61,6 +67,28 @@ img{
 .card:hover .card-side.back {
   transform: rotateY(0deg);
 }
+
 .animal-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.animal-info {
+  margin: 1em 0;
+}
+
+.containerBody {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.backImg {
+  max-height: 60%;
+  width: auto;
+}
+
+.css-ohwg9z {
+  width: 50%;
 }

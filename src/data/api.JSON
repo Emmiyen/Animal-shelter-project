@@ -29,7 +29,7 @@
         "cats": null
       },
       "tags": [],
-      "name": "Reggie: Courtesy Post",
+      "name": "Reggie",
       "description": "Reggie is in a bind. His owner passed away and no one in the family can take him in. He...",
       "photos": "https://www.petplace.com/static/91d7c120d577cd244e377b724b5fca31/c23ac/shutterstock_712281814.jpg",
       "status": "adoptable"
@@ -93,7 +93,7 @@
         "dogs": null,
         "cats": true
       },
-      "name": "charlie",
+      "name": "Charlie",
       "description": null,
       "photos": "https://www.omlet.co.uk/images/originals/Cat-Cat_Guide-A_Maine_Coon_cat_with_a_beautiful_thick_long_coat_lying_down.jpg",
       "status": "adoptable"
@@ -191,7 +191,7 @@
         "cats": true
       },
 
-      "name": "pepper",
+      "name": "Pepper",
       "description": null,
       "photos": "https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F08%2F15%2Fwhite-munchkin-cat_150890825-2000.jpg",
       "status": "adoptable"
@@ -305,7 +305,7 @@
       "age": "Baby",
       "gender": "Female",
       "size": "Medium",
-      "photo": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/58884005/1/?bust=1668679918",
+      "photos": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/58884005/1/?bust=1668679918",
       "attributes": {
         "spayed_neutered": true,
         "house_trained": true,
@@ -319,7 +319,7 @@
         "cats": true
       },
 
-      "name": "ELLA",
+      "name": "Ella",
       "description": null,
       "status": "adoptable"
     },
@@ -350,7 +350,7 @@
         "cats": null
       },
 
-      "name": "fs-Squash",
+      "name": "Squash",
       "description": "",
       "photos": "https://wallpapercave.com/wp/wp10350894.jpg",
       "status": "adoptable"
@@ -382,7 +382,7 @@
         "dogs": null,
         "cats": null
       },
-      "name": "of-Darius (Classic org. tabby)",
+      "name": "Darius",
       "description": "",
       "organization_animal_id": "N2022430",
       "photos": "https://c4.wallpaperflare.com/wallpaper/508/699/748/cat-images-cat-photos-cat-cats-wallpaper-preview.jpg",
@@ -414,7 +414,7 @@
         "dogs": null,
         "cats": null
       },
-      "name": "hc-Heath",
+      "name": "Heath",
       "description": "PLEASE EMAIL  with any questions.",
       "photos": "https://cdn.wallpapersafari.com/99/82/dkSFPR.jpg",
       "status": "adoptable"
@@ -448,7 +448,7 @@
         "cats": null
       },
 
-      "name": "jhf-Prince William",
+      "name": "Prince William",
       "description": "",
       "photos": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "status": "adoptable"
@@ -482,7 +482,7 @@
         "dogs": null,
         "cats": null
       },
-      "name": "hp-Max",
+      "name": "Max",
       "description": "",
       "photos": "https://w0.peakpx.com/wallpaper/310/144/HD-wallpaper-kitty-cute-pet-cat-kitten-animals-sweet.jpg",
       "status": "adoptable"
@@ -513,7 +513,7 @@
         "dogs": null,
         "cats": null
       },
-      "name": "tj-Jane",
+      "name": "Jane",
       "description": "",
       "photos": "https://www.catsbest.de/wp-content/uploads//gefleckte-Katze_shutterstock_1637371189-1024x683.jpg",
       "status": "adoptable"
@@ -544,7 +544,7 @@
         "cats": null
       },
 
-      "name": "hp-Sarah Sanderson",
+      "name": "Sarah",
       "description": "PLEASE EMAIL with any questions.",
       "photos": "https://mrbosscat.com/wp-content/uploads/2021/05/Cats-With-Short-Legs-750x420.jpg",
       "status": "adoptable"
@@ -574,7 +574,7 @@
         "dogs": null,
         "cats": null
       },
-      "name": "hp-Mary Sanderson",
+      "name": "Mary Sanderson",
       "description": "PLEASE EMAIL with any questions.",
       "photos": "https://www.litter-robot.com/media/magefan_blog/2018/05/Devon-Rex.jpg",
       "status": "adoptable"
@@ -604,7 +604,7 @@
         "dogs": null,
         "cats": null
       },
-      "name": "hc-Ike",
+      "name": "Ike",
       "description": "PLEASE EMAIL with any questions.",
       "photos": "https://www.cuded.com/wp-content/uploads/2013/11/1-little-red-cat.jpg",
       "status": "adoptable"
@@ -636,7 +636,7 @@
         "cats": null
       },
 
-      "name": "hp-Winifred",
+      "name": "Winifred",
       "description": "PLEASE EMAIL  with any questions.",
       "photos": "https://t1.ea.ltmcdn.com/en/posts/9/3/4/4_skookum_2439_1_600.jpg",
       "status": "adoptable"
@@ -764,7 +764,7 @@
         "cats": null
       },
 
-      "name": "Osca",
+      "name": "Oscar",
       "description": null,
       "photos": "https://i.pinimg.com/736x/92/3c/d6/923cd6ddb28f67a7c7ed86145ec72960.jpg",
       "status": "adoptable"

@@ -1,8 +1,11 @@
-const managerReducer = (state = [], action) => {
+const managerReducer = (state = { data: [], cart: [] }, action) => {
   switch (action.type) {
     case "ADD":
-      return state.concat(action.payload);
+      state.data = action.payload;
+      return state;
 
+    case "ADDPET":
+      return { ...state, cart: action.payload };
     default:
       return state;
   }

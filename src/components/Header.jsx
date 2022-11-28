@@ -1,7 +1,10 @@
 import "./header.css";
 import PetsIcon from "@mui/icons-material/Pets";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const cart = useSelector((state) => state.cart);
   return (
     <div className="header">
       <div></div>
@@ -11,8 +14,9 @@ function Header() {
         className="main-logo"
       />
       <div>
-        <PetsIcon color="primary" sx={{ mr: 1 }} />
-        (0)
+        <Link to="/cart">
+          <PetsIcon color="primary" sx={{ mr: 1 }} />({cart.length})
+        </Link>
       </div>
     </div>
   );
