@@ -5,7 +5,7 @@ import AnimalCategories from "./components/AnimalCategories";
 import ErrorPage from "./components/ErrorPage";
 import SingleCard from "./components/SingleCard";
 import Cart from "./components/Cart";
-import DataTimePicker from "./components/DataTimePicker";
+
 import Header from "./components/Header";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/animalcategories" element={<AnimalCategories />} />
         <Route path="/singlecard" element={<SingleCard />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/datatimepicker" element={<DataTimePicker />} />
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>

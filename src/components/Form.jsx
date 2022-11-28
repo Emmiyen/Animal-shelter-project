@@ -126,8 +126,9 @@ function Form(props) {
         >
           <h2 className="card-title">Cats</h2>
           <img
+            className="cat-img"
             src="https://t3.ftcdn.net/jpg/02/63/04/74/360_F_263047400_AReIHV0BYqPckVM9HUnh9czMhS4Ol2qm.jpg"
-            alt=""
+            alt="cat"
           />
           <div className="card-desc">
             <h3>Cat</h3>
