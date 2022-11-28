@@ -322,6 +322,166 @@
       "name": "Ella",
       "description": null,
       "status": "adoptable"
+    },{
+      "id": 5886409087,
+      "organization_id": "NY100",
+
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Poppy",
+      "description": "Poppy is in a little Shy at first but she warms up very fast. Even though she is shy she is still very curios.  ",
+      "photos": "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },{
+      "id": 58771187,
+      "organization_id": "NY100",
+
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Golden Reviver"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Karl",
+      "description": "Who is a Good boy? Yes, you are!",
+      "photos": "https://images.pexels.com/photos/1870301/pexels-photo-1870301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },{
+      "id": 587787,
+      "organization_id": "NY100",
+
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pit Bull"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Maya",
+      "description": "Maya needs a lot of love and attention",
+      "photos": "https://images.pexels.com/photos/800330/pexels-photo-800330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },{
+      "id": 5887,
+      "organization_id": "NY100",
+
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Golden Reviver"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Peter",
+      "description": "Peter is still a puppy at heart.",
+      "photos": "https://images.pexels.com/photos/1684504/pexels-photo-1684504.jpeg",
+      "status": "adoptable"
+    },{
+      "id": 5888400087,
+      "organization_id": "NY100",
+
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Medium",
+
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Andrew",
+      "description": "Andrew is in a little rascal. He is always on the hunt for the next adventure.",
+      "photos": "https://images.pexels.com/photos/895259/pexels-photo-895259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
     },
     {
       "id": 58884067,
@@ -767,6 +927,501 @@
       "name": "Oscar",
       "description": null,
       "photos": "https://i.pinimg.com/736x/92/3c/d6/923cd6ddb28f67a7c7ed86145ec72960.jpg",
+      "status": "adoptable"
+    },
+    {
+      "id": 142984185,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Gray Schnauzer"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Pixy",
+      "description": "Tell me a bedtime story!",
+      "organization_animal_id": "224342710",
+      "photos": "https://images.pexels.com/photos/8217340/pexels-photo-8217340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 142984185,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Chihuahua"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Misty",
+      "description": "I'm watching you in your sleep",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/1892223/pexels-photo-1892223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 542984185,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Chihuahua"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Sassy",
+      "description": "I would love to be attached on the hip with you",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/434046/pexels-photo-434046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 542984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Cavalier King Charles Spaniel"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Lady",
+      "description": "All I need are some awesome scratches",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 543984005,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Spaniel"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Jax",
+      "description": "Who doesn't want to touch my fur",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/11681386/pexels-photo-11681386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 543984225,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Dachshund"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Louie",
+      "description": "I'm looking for my Hotdog bun",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/6399508/pexels-photo-6399508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 543984115,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Yorkshire Terrier"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Louie",
+      "description": "Yes Bitch, I own you",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/14001036/pexels-photo-14001036.jpeg",
+      "status": "adoptable"
+    },
+    {
+      "id": 543984005,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Fanche Bulldog"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Murphy",
+      "description": "I'm sooo innocent",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/4181598/pexels-photo-4181598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 542984005,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Papillon"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Max",
+      "description": "I'm looking for a owner that I can own",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/7345016/pexels-photo-7345016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 542984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Shih-tzu "
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Ruby",
+      "description": "Your ankles are my favorite snack",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/61372/pexels-photo-61372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 582984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Terrier Mix"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Maple",
+      "description": "There is a reason that they call me Marple, i'm sweet as can be",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/2013662/pexels-photo-2013662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 582984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Terrier Mix"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Juno",
+      "description": "I can fit into your pocked, but please don't put me there",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/2013662/pexels-photo-2013662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 582984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Yorkshire Terrier"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Dolly",
+      "description": "I can fit into your pocked, but please don't put me there",
+      "organization_animal_id": "22142710",
+      "photos": "https://images.pexels.com/photos/1420405/pexels-photo-1420405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 588984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Small",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Dotty",
+      "description": "Look at me, i'm adorable! ",
+      "organization_animal_id": "22142710",
+      "photos": "https://images.pexels.com/photos/1557178/pexels-photo-1557178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 588984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Medium",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Snoopy",
+      "description": "Snoopy still got it",
+      "organization_animal_id": "22142710",
+      "photos": "https://images.pexels.com/photos/2248516/pexels-photo-2248516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "status": "adoptable"
     },
     {
