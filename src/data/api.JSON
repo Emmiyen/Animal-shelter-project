@@ -322,7 +322,8 @@
       "name": "Ella",
       "description": null,
       "status": "adoptable"
-    },{
+    },
+    {
       "id": 5886409087,
       "organization_id": "NY100",
 
@@ -351,10 +352,11 @@
       },
       "tags": [],
       "name": "Poppy",
-      "description": "Poppy is in a little Shy at first but she warms up very fast. Even though she is shy she is still very curios.  ",
-      "photos": "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Poppy is in a little Shy at first but she warms up very fast.",
+      "photos": "https://images.pexels.com/photos/10371185/pexels-photo-10371185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "status": "adoptable"
-    },{
+    },
+    {
       "id": 58771187,
       "organization_id": "NY100",
 
@@ -386,7 +388,8 @@
       "description": "Who is a Good boy? Yes, you are!",
       "photos": "https://images.pexels.com/photos/1870301/pexels-photo-1870301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "status": "adoptable"
-    },{
+    },
+    {
       "id": 587787,
       "organization_id": "NY100",
 
@@ -418,7 +421,8 @@
       "description": "Maya needs a lot of love and attention",
       "photos": "https://images.pexels.com/photos/800330/pexels-photo-800330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "status": "adoptable"
-    },{
+    },
+    {
       "id": 5887,
       "organization_id": "NY100",
 
@@ -450,7 +454,8 @@
       "description": "Peter is still a puppy at heart.",
       "photos": "https://images.pexels.com/photos/1684504/pexels-photo-1684504.jpeg",
       "status": "adoptable"
-    },{
+    },
+    {
       "id": 5888400087,
       "organization_id": "NY100",
 
