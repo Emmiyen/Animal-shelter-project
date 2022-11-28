@@ -47,6 +47,7 @@
     display: block;
     position: relative;
     border-radius: 0;
+
 }
 
 .card-desc {
@@ -137,6 +138,8 @@
     align-items: center;
     text-decoration: none;
 }
+
+.cat-img {}
 
 @media (min-width: 768px) {
     .button-53 {
