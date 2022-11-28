@@ -1029,6 +1029,138 @@
       "status": "adoptable"
     },
     {
+      "id": 52085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Terrier Mix"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Medium",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Finley",
+      "description": "Looking that cute is exhausting. I need to take a big nap ",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/11907977/pexels-photo-11907977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 54672384085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Border Collie"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Baby",
+      "gender": "Female",
+      "size": "Medium",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Nova",
+      "description": "What the Fluff is going on?",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/9082846/pexels-photo-9082846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 54672384085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Baby",
+      "gender": "Female",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Oreo",
+      "description": "I will only fit into the palm of your hand for 5 minutes",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/12696575/pexels-photo-12696575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
+      "id": 54567984085,
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Golden Reviver"
+      },
+      "colors": {
+        "primary": null
+      },
+      "age": "Baby",
+      "gender": "Female",
+      "size": "Large",
+
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+
+      "name": "Tilly",
+      "description": "I'm itty Bitty",
+      "organization_animal_id": "221342710",
+      "photos": "https://images.pexels.com/photos/11109404/pexels-photo-11109404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "status": "adoptable"
+    },
+    {
       "id": 5467984085,
       "type": "Dog",
       "species": "Dog",
