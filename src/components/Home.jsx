@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Form from "./Form";
+import Fade from "./Fade";
+
 function Home() {
   const [data, setData] = useState([]);
-
+  const [showAnimation, setShowAnimation] = useState(true);
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch(require("../data/api.JSON"));
@@ -11,8 +13,14 @@ function Home() {
     };
     fetchData();
   }, [setData]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowAnimation(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
-  return <Form data={data}></Form>;
+  return showAnimation ? <Fade /> : <Form data={data}></Form>;
 }
 
 export default Home;

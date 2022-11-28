@@ -5,24 +5,26 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addItem } from "../actions";
+
 function Form(props) {
   const [age, setAge] = useState("");
   const [size, setSize] = useState("");
   const [gender, setGender] = useState("");
   const [dogActive, setDogActive] = useState(false);
   const [catActive, setCatActive] = useState(false);
-  const [form, setForm] = useState("");
+  const dispatch = useDispatch();
+
   const handleChange = (event) => {
     setAge(event.target.value);
-    console.log(age);
   };
   const handleChange2 = (event) => {
     setSize(event.target.value);
-    console.log(size);
   };
   const handleChange3 = (event) => {
     setGender(event.target.value);
-    console.log(gender);
   };
   const toggleForm = (name) => {
     if (name === "dog") {
@@ -35,27 +37,28 @@ function Form(props) {
   };
   const sendForm = (type) => {
     if (type === "dog") {
-      setForm({
-        type: "dog",
-        age: age,
-        gender: gender,
-        size: size,
+      const filteredData = props.data.filter((el) => {
+        return (
+          el.type === "Dog" &&
+          el.age === age &&
+          el.gender === gender &&
+          el.size === size
+        );
       });
+      dispatch(addItem(filteredData));
     } else if (type === "cat") {
-      setForm({
-        type: "cat",
-        age: age,
-        gender: gender,
+      const filteredData = props.data.filter((el) => {
+        return el.type === "Cat" && el.age === age && el.gender === gender;
       });
+      dispatch(addItem(filteredData));
     }
-    console.log(form);
   };
   return props.data.length !== 0 ? (
     <div className="form-wrap">
       <h3>what kind of pet are you looking for?</h3>
       <div className="cards">
         <div
-          className={`card ${dogActive ? "active-card" : ""}`}
+          className={`card-box ${dogActive ? "active-card" : ""}`}
           onClick={() => toggleForm("dog")}
         >
           <h2 className="card-title">Dogs</h2>
@@ -108,22 +111,22 @@ function Form(props) {
                 </Select>
               </FormControl>
             </Box>
-            <button
+            <Link
+              to="/animalcategories"
               className="sub"
               onClick={() => sendForm("dog")}
-              size="large"
             >
               Submit
-            </button>
+            </Link>
           </div>
         </div>
         <div
-          className={`card ${catActive ? "active-card" : ""}`}
+          className={`card-box ${catActive ? "active-card" : ""}`}
           onClick={() => toggleForm("cat")}
         >
           <h2 className="card-title">Cats</h2>
           <img
-            src="https://png.pngtree.com/png-clipart/20190618/original/pngtree-gray-cartoon-cat-cat-cartoon-animals-gray-png-image_3925392.jpg"
+            src="https://t3.ftcdn.net/jpg/02/63/04/74/360_F_263047400_AReIHV0BYqPckVM9HUnh9czMhS4Ol2qm.jpg"
             alt=""
           />
           <div className="card-desc">
@@ -156,13 +159,13 @@ function Form(props) {
                   <MenuItem value={"Male"}>Male</MenuItem>
                 </Select>
               </FormControl>
-              <button
+              <Link
+                to="/animalcategories"
                 className="sub"
                 onClick={() => sendForm("cat")}
-                size="large"
               >
                 Submit
-              </button>
+              </Link>
             </Box>
           </div>
         </div>

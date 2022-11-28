@@ -1,31 +1,27 @@
-import React from 'react'
-import { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
-import Cart from './Cart';
-import SingleCard from './SingleCard'
+import React from "react";
+import { useEffect, useState } from "react";
+import SingleCard from "./SingleCard";
+import { useSelector } from "react-redux";
 
 const AnimalCategories = () => {
   const [data, setData] = useState([]);
-
-
-
+  const filteredData = useSelector((state) => state.data);
+  console.log(filteredData);
   useEffect(() => {
-
     const fetchData = async () => {
-      const res = await fetch(require("../data/api.JSON"));
-      const json = await res.json();
-      setData(json.animals);
+      if (filteredData.length !== 0) {
+        setData(filteredData);
+      } else {
+        const res = await fetch(require("../data/api.JSON"));
+        const json = await res.json();
+        setData(json.animals);
+      }
     };
     fetchData();
-  }, [setData]);
+  }, [setData, filteredData]);
 
-console.log(data)
-  return (
+  console.log(data);
+  return <SingleCard data={data} />;
+};
 
-  <div>
-   <SingleCard data={data} />
-</div>)
-}
-
-export default AnimalCategories
+export default AnimalCategories;
